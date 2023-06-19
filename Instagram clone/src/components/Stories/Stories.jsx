@@ -13,7 +13,6 @@ const Stories = ({ data }) => {
           ))}
         </ul>
       </div>
-      ;
     </>
   );
 };

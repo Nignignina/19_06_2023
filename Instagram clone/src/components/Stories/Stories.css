@@ -3,8 +3,9 @@
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 12px;
+  height: fit-content;
 
-  width: fit-content;
+  border: 1px solid red;
 }
 
 .Stories::-webkit-scrollbar {
@@ -16,12 +17,11 @@
   flex-direction: row;
   align-items: center;
 
-  gap: 6px;
+  gap: 13px;
 }
 
 .Stories_item {
   list-style-type: none;
-  background-color: aquamarine;
 }
 
 .Stories_item:first-child {

@@ -1,10 +1,15 @@
-import "./stor.css";
+import "./story.css";
 
-const Story = (user) => {
-  <div className="Story">
-    <div className="Story_img"> </div>
-    <p color="Story_nick"> </p>
-  </div>;
+const Story = ({ user }) => {
+  console.log(user.user);
+  return (
+    <div className="Story">
+      <div className="Story_img">
+        <img src={user.picture.thumbnail} alt="" />
+      </div>
+      <p className="nickname_story">{user.login.username}</p>
+    </div>
+  );
 };
 
 export default Story;
